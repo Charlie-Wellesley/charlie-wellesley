@@ -19,7 +19,13 @@
 </ul>
 
 
-<script></script>
+<script>
+    $(window).ready(function(){
+        $('.link').click(function(){
+            console.log($(this).data('link'));
+        });
+    });
+</script>
 
 </body>
 </html>
